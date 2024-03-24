@@ -5,7 +5,7 @@ export default class HomePage{
     }
 
     openUrl(){
-    cy.visit(Cypress.env('HOMEPAGEURL'))
+    cy.visit(Cypress.env('URL'))
     }
 
     verifyPageTitle(){

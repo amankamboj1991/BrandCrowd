@@ -7,6 +7,7 @@ module.exports = defineConfig({
     },
   },
   env:{    
-    HOMEPAGEURL: 'https://www.brandcrowd.com/'
-  }
+    URL: 'https://www.brandcrowd.com/maker/mydesigns/logodrafts/6dbe3e6b-b95d-422a-ae53-f54650680afa/templatetypes?searchTerm=Tech+Challenge'
+  },
+  "includeShadowDom": true
 });
